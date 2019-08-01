@@ -40,11 +40,11 @@ Some (very) old Context Free Art codes (https://www.contextfreeart.org/).
 ## illusion optique 12
 ![illusion_optique_12](./imgs/illusion_optique_12.png)
 ## L-system 2
-![l_system_2](./imgs/l_system_2.png)
+![l_system_2](./imgs/L_system_2.png)
 ## L-system 4
-![l_system_4](./imgs/l_system_4.png)
+![l_system_4](./imgs/L_system_4.png)
 ## nice shape 4
-![nice_shape_4](./imgs/l_system_4.png)
+![nice_shape_4](./imgs/nice_shape_4.png)
 ## triangle sierpinski 2
 ![triangle_sierpinski_2](./imgs/triangle_sierpinski_2.png)
 ## triangle sierpinski base carre
