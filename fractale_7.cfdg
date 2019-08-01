@@ -1,0 +1,11 @@
+//@AUTEUR: Thomas Labarussias
+startshape oo
+
+rule oo {ll {r 45}}
+
+rule ll
+{
+CIRCLE{}
+CIRCLE{s 0.9 b 1 z 1}
+4*{r 90}ll{x .5 s 0.5}
+}

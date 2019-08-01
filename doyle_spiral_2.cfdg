@@ -1,0 +1,19 @@
+//@AUTEUR: Thoma Labarussias
+startshape jj
+
+rule base
+{
+2*{s 0.965 b 1}CIRCLE{}
+//base{s 0.9 r -45 y 0.0325}
+}
+
+rule hh
+{
+base{y 5.8}
+hh{s 0.86 r 5} 
+}
+
+rule jj
+{
+36*{r 10}hh{}
+}

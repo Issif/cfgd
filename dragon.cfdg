@@ -1,0 +1,19 @@
+#@AUTEUR: Thomas Labarussias
+#@DATE: 22 mars 2008
+
+startshape dragon
+background{b -1}
+
+rule dragon
+{
+base{r 45}
+}
+
+rule base
+{
+TRIANGLE{s 0.3 b 1}
+CIRCLE{b -1 s 0.175}
+CIRCLE{b 1 s 0.08}
+base{x -0.4 r 45 s 0.7 b +.2}
+base{x 0.4 r 45 s 0.7 b +.2}
+}

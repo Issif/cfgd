@@ -1,0 +1,9 @@
+#@AUTEUR: Thomas Labarussias
+
+startshape mm
+
+rule mm
+{
+20*{y 1}SQUARE{}
+2*{f 90 s 0.8 r -20 x -5}mm{y 19.4 s 0.85 r -15}
+}

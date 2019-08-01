@@ -1,0 +1,21 @@
+#@AUTEUR: Thomas Labarussias
+
+startshape illusion
+background{b -0.3}
+
+rule base
+{
+5*{y 1}SQUARE{s 0.2 1 x -2.4 y -2 b -1}
+5*{x -1}SQUARE{s 1 0.2 x 2 y 2.4 b 1}
+5*{y -1}SQUARE{s 0.2 1 x 2.4 y 2 b 1}
+5*{x 1}SQUARE{s 1 0.2 x -2 y -2.4 b -1}
+SQUARE{s 4.5 b 0.7}
+}
+
+
+rule illusion
+{
+36*{r 10} base{skew -15 0 y 45}
+30*{r 12} base{skew 15 0 y 35 f 90}
+CIRCLE{b -1}
+}

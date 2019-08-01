@@ -1,0 +1,35 @@
+#@AUTEUR: Thomas Labarussias
+
+startshape ll
+background{b -0.2}
+
+rule ll
+{
+35*{sat 0.09 hue 150}mm{}
+}
+
+rule mm
+{
+kk{s 1.2}
+mm{s 0.9 y 2 r 45}
+}
+
+rule mm
+{
+kk{s 0.9}
+mm{s 0.9 x 2 r -45}
+}
+
+rule mm
+{
+kk{s 2}
+mm{s 0.9 y -2 r 180}
+}
+
+rule kk
+{
+CIRCLE{}
+CIRCLE{b 1 s 0.9}
+CIRCLE{s 0.8}
+CIRCLE{b 1 s 0.7}
+}

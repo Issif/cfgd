@@ -1,0 +1,10 @@
+#@AUTEUR: Thomas Labarussias
+
+startshape mm
+
+rule mm
+{
+SQUARE{s 20 1}
+2*{f 90}mm{r 90 x -10 s 0.72}
+
+}

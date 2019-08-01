@@ -1,0 +1,10 @@
+//@AUTEUR: Thoma Labarussias
+startshape jj
+
+path base
+{
+MOVETO{x 0.5 y 0}
+ARCTO{x -0.5 y 0 r .5}
+ARCTO{x 0.5 y 0 r .5}
+STROKE{width 0.02}
+}

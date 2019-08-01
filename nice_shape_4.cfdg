@@ -1,0 +1,12 @@
+startshape ll
+
+rule gg
+{
+2*{s 0.6 b 1 z 1}CIRCLE{z -1}
+2*{f 0 s 0.6}gg{x 1 s 0.9 r 45}
+}
+
+rule ll
+{
+2*{f 90}{2*[f 90 f 0]gg{}}
+}

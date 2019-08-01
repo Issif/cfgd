@@ -1,0 +1,14 @@
+//@AUTEUR: Thoma Labarussias
+startshape hh
+
+rule base
+{
+2*{s 0.965 b 1}CIRCLE{}
+//base{s 0.9 r -45 y 0.0325}
+}
+
+rule hh
+{
+base{y 5.8}
+hh{s 0.99525 r 10} 
+}

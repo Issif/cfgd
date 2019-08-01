@@ -1,0 +1,7 @@
+startshape base
+
+rule base
+{
+CIRCLE{}
+4*{r 90} base { s 0.5 x 1}
+}

@@ -1,0 +1,23 @@
+//@AUTEUR: Thoma Labarussias
+startshape phi
+
+rule phi
+{hh{b 0.4} jj{z 1 b 1}}
+
+rule hh
+{
+SQUARE{s ((1+sqrt(5))/2) 1}
+hh{s (1-((1+sqrt(5))/2)) x 0.5 r -90 b 0.1}
+}
+
+path pp
+{
+MOVETO{x ((-1-sqrt(5))/4) y .5}
+ARCTO{x 0.19 y -.5 r 1}
+STROKE{width 0.015 p buttcap}
+}
+
+rule jj
+{pp{}
+jj{s (1-((1+sqrt(5))/2)) x 0.5 r -90 b -.1}
+}

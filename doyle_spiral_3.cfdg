@@ -1,0 +1,21 @@
+//@AUTEUR: Thoma Labarussias
+startshape jj
+
+path base
+{
+MOVETO{x 0.5 y 0}
+ARCTO{x -0.5 y 0 r .5}
+ARCTO{x 0.5 y 0 r .5}
+STROKE{width 0.02}
+}
+
+rule hh
+{
+base{y 5.8}
+hh{s 0.93 r 2.5} 
+}
+
+rule jj
+{
+72*{r 5}hh{}
+}

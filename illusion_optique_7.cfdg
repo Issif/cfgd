@@ -1,0 +1,38 @@
+#@AUTEUR: Thomas Labarussias
+
+startshape kk
+background{hue 49 sat 0.98 b 0.1}
+
+
+rule ellipse
+{
+180*{r 1}SQUARE{s 0.1 1 y 2 b 1}
+180*{r 1}SQUARE{s 0.1 1 y -2 b -1}
+}
+
+rule base
+{
+ellipse{s 0.5 1 f 90}
+CIRCLE{z +1 s 2 4.4 hue 216 sat 0.98 b 0.7333}
+}
+
+rule rouleau
+{
+8*{y -7}base{}
+8*{y -7}base{x -3 s 0.9 1}
+8*{y -7}base{x -5.8 s 0.7 1}
+8*{y -7}base{x -8.1 s 0.6 1}
+8*{y -7}base{x -9.9 s 0.5 1}
+
+8*{y -7}base{}
+8*{y -7}base{x 3 s 0.9 1}
+8*{y -7}base{x 5.8 s 0.7 1}
+8*{y -7}base{x 8.1 s 0.6 1}
+8*{y -7}base{x 9.9 s 0.5 1}
+}
+
+rule kk
+{
+2*{x 42.2}rouleau{}
+rouleau{x 21.1 f 90}
+}

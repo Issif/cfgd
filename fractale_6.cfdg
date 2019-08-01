@@ -1,0 +1,16 @@
+#@AUTEUR: Thomas Labarussias
+
+startshape pp
+
+rule pp
+{
+mm{}
+2*{f 90 s 1 -1}pp{r 20 s 0.78 x 4}
+}
+
+path mm
+{
+MOVETO{}
+2*{x 4 f 90}{CURVEREL{x 4 y 0.1 x1 1 y1 2 x2 3 y2 -2}}
+STROKE{width 0.25}
+}

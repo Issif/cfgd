@@ -1,0 +1,32 @@
+#@AUTEUR: Thomas Labarussias
+
+startshape gg
+background{hue 250 sat 1 b 1}
+
+rule mm
+{
+10*{r 36}CIRCLE{s 1 0.7 y 4}
+}
+
+rule pp
+{
+2*{b 1 r 18 z 1}mm{}
+10*{r 36}hh{s 0.9 1 z -1 x -0.1 y 3.5 hue 65 sat 0.7 b 1}
+}
+
+rule ll
+{
+pp{}
+ll{r 18 s 0.75}
+}
+
+rule hh
+{
+2*{f 90 x 0.2}SQUARE{skew -10 0}
+}
+
+rule gg
+{
+2*{x 10}ll{}
+2*{x 10}ll{y -10}
+}
