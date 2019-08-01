@@ -8,3 +8,14 @@ ARCTO{x -0.5 y 0 r .5}
 ARCTO{x 0.5 y 0 r .5}
 STROKE{width 0.02}
 }
+
+rule hh
+{
+base{y 5.5}
+hh{s 0.955 r 4.5} 
+}
+
+rule jj
+{
+40*{r 9}hh{}
+}
